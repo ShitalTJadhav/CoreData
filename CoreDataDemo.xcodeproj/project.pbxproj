@@ -15,6 +15,7 @@
 		53911F1122047C7500FFF1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53911F0F22047C7500FFF1EE /* LaunchScreen.storyboard */; };
 		53911F1C22047C7500FFF1EE /* CoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53911F1B22047C7500FFF1EE /* CoreDataDemoTests.swift */; };
 		53911F2722047C7600FFF1EE /* CoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53911F2622047C7600FFF1EE /* CoreDataDemoUITests.swift */; };
+		53911F35220483C800FFF1EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53911F34220483C800FFF1EE /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		53911F2222047C7500FFF1EE /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53911F2622047C7600FFF1EE /* CoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoUITests.swift; sourceTree = "<group>"; };
 		53911F2822047C7600FFF1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53911F34220483C800FFF1EE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				53911F0F22047C7500FFF1EE /* LaunchScreen.storyboard */,
 				53911F1222047C7500FFF1EE /* Info.plist */,
 				53911F0A22047C7200FFF1EE /* CoreDataDemo.xcdatamodeld */,
+				53911F34220483C800FFF1EE /* User.swift */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53911F35220483C800FFF1EE /* User.swift in Sources */,
 				53911F0622047C7200FFF1EE /* ViewController.swift in Sources */,
 				53911F0C22047C7200FFF1EE /* CoreDataDemo.xcdatamodeld in Sources */,
 				53911F0422047C7200FFF1EE /* AppDelegate.swift in Sources */,
